@@ -11,7 +11,7 @@ RUN chmod o+x /app/entrypoint.sh
 RUN apt update
 RUN apt install wget git python3 python3-venv gcc python3-dev libgl1 libglib2.0-0 -y
 
-RUN useradd -u 8877 app
+RUN useradd -m -u 8877 app
 RUN usermod -aG sudo app
 USER app
 
