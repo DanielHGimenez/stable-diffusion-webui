@@ -1,2 +1,2 @@
 #!/bin/bash
-/app/webui.sh $WEBUI_ARGS
+/app/webui.sh --use-cpu all --listen --port 6671
